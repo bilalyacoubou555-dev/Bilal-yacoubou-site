@@ -8,32 +8,48 @@
 
 body{
 font-family: Arial;
+margin:0;
 background:#f4f4f4;
-text-align:center;
 }
 
 header{
 background:#0077ff;
 color:white;
-padding:30px;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#333;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+nav a:hover{
+color:yellow;
 }
 
 section{
-margin:40px;
+padding:40px;
+text-align:center;
 }
 
-button{
-background:#0077ff;
-color:white;
-border:none;
-padding:10px 20px;
-font-size:18px;
-border-radius:5px;
+img{
+width:300px;
+border-radius:10px;
 }
 
 footer{
 background:#222;
 color:white;
+text-align:center;
 padding:15px;
 }
 
@@ -44,22 +60,30 @@ padding:15px;
 <body>
 
 <header>
-<h1>Bienvenue sur le site de Bilal</h1>
-<p>Mon premier vrai site web</p>
+<h1>Bienvenue sur mon site</h1>
+<p>Créé avec GitHub Pages</p>
 </header>
 
-<section>
-<h2>Présentation</h2>
-<p>Je suis en train d'apprendre le développement web.</p>
+<nav>
+<a href="#">Accueil</a>
+<a href="#">À propos</a>
+<a href="#">Contact</a>
+</nav>
 
-<button onclick="alert('Bienvenue sur mon site')">
-Clique ici
-</button>
+<section>
+
+<h2>Présentation</h2>
+
+<img src="https://picsum.photos/300">
+
+<p>Je suis en train d'apprendre à créer des sites web professionnels.</p>
 
 </section>
 
 <footer>
+
 <p>© 2026 Bilal</p>
+
 </footer>
 
 </body>
